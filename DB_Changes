@@ -1,0 +1,15 @@
+create database SplitFare
+
+GO
+
+USE SplitFare
+
+CREATE TABLE Users
+(
+UserId BIGINT PRIMARY KEY IDENTITY(1,1),
+UserName VARCHAR(100),
+UserEmail VARCHAR(100)
+)
+
+GO
+
